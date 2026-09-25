@@ -25,3 +25,11 @@ The image shows the UMAP cell map after selecting TYR in the Gene tab of the UCS
 **Figure 3.** TYR gene-expression map showing cell-type/cluster annotations in the Normal and Inflamed Human Epidermis dataset. 
  
 Figure 3 shows the TYR gene-expression map in the UCSC Cell Browser with recognizable cell-type and cluster labels. The **melanocyte** cluster is clearly labeled and shows the strongest visible TYR expression, while other labeled clusters, including WNT1, show little or no detectable expression. The annotation panel on the left identifies the selected cell as **mel1** under CellType and **melanocyte** under Re-annotation. The expression legend on the right identifies the selected gene as *TYR* and shows the range of detected expression values. The map therefore provides visual evidence that *TYR* expression is concentrated in the melanocyte cluster rather than being broadly distributed across the cell populations.
+
+## Screenshot 4: TYR Expression Plot in Selected Melanocyte Cells
+
+![TYR expression plot comparing selected melanocyte cells with other cells](04_expression_plot.png)
+
+**Figure 4.** Violin plot comparing TYR expression between selected melanocyte cells and other cells in the Normal and Inflamed Human Epidermis dataset.
+
+Following the selection of cells within the melanocyte cluster, the UCSC Cell Browser generated a violin plot comparing their TYR expression with the remaining cells. The selected group contains 4,277 cells, while the comparison group labeled “Others” contains 63,759 cells. The distribution of expression values for the selected cells extends to higher levels, whereas the values for the other cells are concentrated mainly near zero. The plot therefore provides additional evidence that TYR expression is higher in the selected melanocyte cells compared with the background cell population.
