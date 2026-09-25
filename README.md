@@ -97,7 +97,7 @@ Figure 2 presents the distribution of TYR expression across the cell map after t
 
 ---
 
-## Part E: Cell-Type/Cluster Expression of TYR
+## Cell-Type/Cluster Expression of TYR
 
 The cell-type distribution of *TYR* expression was examined using the annotated cell map in the UCSC Cell Browser. The map was viewed with the cell-type/cluster labels visible, and the melanocyte cluster was examined more closely to compare its *TYR* expression with the other cell populations. The observed expression pattern and cell-type annotations are shown in Figure 3.
 
@@ -143,6 +143,43 @@ The expression plot shows the distribution of TYR expression values in the selec
 **Figure 4.** Violin plot comparing *TYR* expression between selected melanocyte cells and other cells in the Normal and Inflamed Human Epidermis dataset.
 
 The violin plot provides a direct comparison of the TYR expression distributions between the selected melanocyte cells and the other cells. The selected group shows expression values distributed at higher levels, whereas the comparison group is concentrated mainly near zero.
+
+---
+
+## Marker Genes of the Melanocyte Cluster
+
+The melanocyte cluster was examined for marker genes using the cluster-marker table in the UCSC Cell Browser. Three marker genes were recorded from the displayed table: *MLANA*, *DCT*, and *TYRP1*. The marker gene *MLANA* was then selected to display its expression across the cell map, and its expression pattern was compared with the previously observed pattern of the assigned disease gene (TYR). Both genes showed strong expression in the melanocyte cluster, although the MLANA expression pattern was more visibly distributed across some additional cell populations. The marker-gene information for the melanocyte cluster is shown in Figure 5.
+
+**a. Cluster/cell type examined:**  
+The cluster examined was the melanocyte cluster.
+
+**b. Marker gene 1:**  
+The first marker gene recorded was **MLANA**.
+
+**c. Marker gene 2:**  
+The second marker gene recorded was **DCT**.
+
+**d. Marker gene 3:**  
+The third marker gene recorded was **TYRP1**.
+
+**e. Does your assigned gene behave like a cell-type marker in this dataset? Explain briefly.**  
+
+Yes. The assigned disease gene, *TYR*, associated with **Oculocutaneous albinism type 1 (OCA1)**, behaves like a **melanocyte-associated marker** in this dataset because its strongest visible expression is concentrated in the melanocyte cluster, while most other cell types show little or no detectable expression. To compare this pattern with a known marker from the cluster-marker table, *MLANA* was selected as the **melanocyte marker gene**.
+
+| Comparison | Assigned Disease Gene (*TYR*) | Melanocyte Marker Gene (*MLANA*) |
+|---|---|---|
+| Role in this activity | Assigned disease gene associated with OCA1 | Marker gene selected from the melanocyte cluster |
+| Expression in melanocytes | Strongest visible expression was concentrated in the melanocyte cluster | Strong expression was also visible in the melanocyte cluster |
+| Expression outside melanocytes | Little or no detectable expression was observed in most other clusters | Expression was more visibly distributed across some additional cell populations |
+| Overall observed pattern | More restricted toward the melanocyte cluster | Strongly associated with melanocytes but showed a broader visible distribution |
+
+Both the assigned disease gene *TYR* and the melanocyte marker gene *MLANA* showed strong expression in the melanocyte cluster, although their overall expression patterns were not identical. In the cell maps examined, *TYR* appeared more restricted to the melanocyte population, whereas *MLANA* showed visible expression across some additional cell populations. This comparison supports the interpretation that *TYR* behaves like a melanocyte-associated marker in this dataset.
+
+![Marker-gene information for the melanocyte cluster](screenshots/05_marker_genes.png)
+
+**Figure 5.** Marker-gene information for the melanocyte cluster in the Normal and Inflamed Human Epidermis dataset.
+
+Figure 5 presents the marker-gene table generated for the melanocyte cluster in the UCSC Cell Browser. Among the displayed marker genes are *MLANA*, *DCT*, and *TYRP1*, which were recorded for this activity. The table also provides the corresponding z scores and additional information for the marker genes associated with the selected cluster.
 
 
 
