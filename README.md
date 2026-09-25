@@ -163,17 +163,8 @@ The second marker gene recorded was **DCT**.
 The third marker gene recorded was **TYRP1**.
 
 **e. Does your assigned gene behave like a cell-type marker in this dataset? Explain briefly.**  
+Yes. The assigned disease gene TYR behaves like a cell-type marker in this dataset because its expression is mainly concentrated in the melanocyte cluster, with little or no detectable expression in most other cell types.
 
-Yes. The assigned disease gene, *TYR*, associated with **Oculocutaneous albinism type 1 (OCA1)**, behaves like a **melanocyte-associated marker** in this dataset because its strongest visible expression is concentrated in the melanocyte cluster, while most other cell types show little or no detectable expression. To compare this pattern with a known marker from the cluster-marker table, *MLANA* was selected as the **melanocyte marker gene**.
-
-| Comparison | Assigned Disease Gene (*TYR*) | Melanocyte Marker Gene (*MLANA*) |
-|---|---|---|
-| Role in this activity | Assigned disease gene associated with OCA1 | Marker gene selected from the melanocyte cluster |
-| Expression in melanocytes | Strongest visible expression was concentrated in the melanocyte cluster | Strong expression was also visible in the melanocyte cluster |
-| Expression outside melanocytes | Little or no detectable expression was observed in most other clusters | Expression was more visibly distributed across some additional cell populations |
-| Overall observed pattern | More restricted toward the melanocyte cluster | Strongly associated with melanocytes but showed a broader visible distribution |
-
-Both the assigned disease gene *TYR* and the melanocyte marker gene *MLANA* showed strong expression in the melanocyte cluster, although their overall expression patterns were not identical. In the cell maps examined, *TYR* appeared more restricted to the melanocyte population, whereas *MLANA* showed visible expression across some additional cell populations. This comparison supports the interpretation that *TYR* behaves like a melanocyte-associated marker in this dataset.
 
 ![Marker-gene information for the melanocyte cluster](screenshots/05_marker_genes.png)
 
@@ -181,7 +172,39 @@ Both the assigned disease gene *TYR* and the melanocyte marker gene *MLANA* show
 
 Figure 5 presents the marker-gene table generated for the melanocyte cluster in the UCSC Cell Browser. Among the displayed marker genes are *MLANA*, *DCT*, and *TYRP1*, which were recorded for this activity. The table also provides the corresponding z scores and additional information for the marker genes associated with the selected cluster.
 
+---
 
+## Comparison of the Assigned Disease Gene and a Marker Gene
+
+The assigned disease gene *TYR*, associated with **Oculocutaneous albinism type 1 (OCA1)**, was compared with *MLANA*, a marker gene identified from the **melanocyte cluster** in Part G. Each gene was viewed separately on the cell map in the UCSC Cell Browser, and their expression patterns across the annotated cell populations were compared. A direct multiple-gene plot was also attempted using Gene Expression Plots, but the two genes did not load together in the available interface.
+
+**a. Assigned disease gene:**  
+The assigned disease gene is *TYR* (tyrosinase), which is associated with **Oculocutaneous albinism type 1 (OCA1)**.
+
+**b. Marker gene:**  
+The marker gene selected for comparison is *MLANA*, which was identified in the marker-gene table for the **melanocyte cluster**.
+
+**c. Which gene shows a more cell-type-restricted expression pattern?**  
+*TYR* shows a **more cell-type-restricted expression pattern** in this dataset. Its strongest visible expression is concentrated in the melanocyte cluster, while most of the other cell populations show little or no detectable expression.
+
+**d. Which gene appears more broadly expressed?**  
+*MLANA* appears **more broadly expressed** in this dataset. Although strong *MLANA* expression is visible in the melanocyte cluster, detectable expression is also distributed across additional cell populations compared with the more restricted pattern observed for *TYR*.
+
+**e. What does this comparison teach you about the difference between a disease-associated gene and a cell-type marker gene?**  
+The comparison shows that a **disease-associated gene** and a **cell-type marker gene** can both be strongly associated with the same cell type while still having different expression patterns. In this dataset, the disease-associated gene *TYR* showed a more restricted expression pattern in melanocytes, whereas the melanocyte marker gene *MLANA* showed a broader visible distribution across the cell map. This indicates that being disease-associated or being used as a cell-type marker does not necessarily determine how broadly or narrowly a gene is expressed.
+
+### Comparison of TYR and MLANA Expression
+
+The expression patterns of the assigned disease gene TYR, associated with Oculocutaneous albinism type 1 (OCA1), and the melanocyte marker gene MLANA were compared across the annotated cell populations in the dataset. Both genes showed strong expression in the melanocyte cluster, but their expression across the other cell types differed. The table below summarizes the observed expression patterns of the two genes.
+
+| Comparison | Assigned Disease Gene (*TYR*) | Melanocyte Marker Gene (*MLANA*) |
+|---|---|---|
+| Role in this activity | Assigned disease gene associated with OCA1 | Marker gene selected from the melanocyte cluster |
+| Expression in melanocytes | Strongest visible expression was concentrated in the melanocyte cluster | Strong expression was also visible in the melanocyte cluster |
+| Expression outside melanocytes | Little or no detectable expression was observed in most other clusters | Detectable expression was visible across additional cell populations |
+| Overall observed pattern | More cell-type restricted | More broadly expressed |
+
+Based on the observed cell maps, *TYR* showed a more cell-type-restricted expression pattern, whereas *MLANA* appeared more broadly expressed in this dataset. Although both genes were strongly associated with the melanocyte cluster, their distributions were not identical. This comparison shows that a disease-associated gene and a cell-type marker gene can be associated with the same cell type without having the same expression pattern. A gene's association with a disease does not necessarily determine how broadly it is expressed, while a marker gene is useful for helping characterize or distinguish a particular cell type.
 
 
 
