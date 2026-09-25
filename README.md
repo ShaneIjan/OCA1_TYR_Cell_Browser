@@ -19,7 +19,7 @@ This activity uses the same assigned disease gene from the previous bioinformati
 
 ## Organ/Tissue Choice and Dataset Information
 
-The UCSC Cell Browser was used to identify a human single-cell dataset relevant to the assigned *TYR* gene and Oculocutaneous albinism type 1 (OCA1). The dataset information, including the tissue, organism, study title, publication, and dataset ID, was obtained from the **Dataset Information** window in the UCSC Cell Browser and is shown as evidence in **Screenshot 1**.
+The UCSC Cell Browser was used to identify a human single-cell dataset relevant to the assigned *TYR* gene and Oculocutaneous albinism type 1 (OCA1). The dataset information, including the tissue, organism, study title, publication, and dataset ID, was obtained from the **Dataset Information** window in the UCSC Cell Browser and is shown as evidence in Figure 1.
 
 **Dataset:** Normal and Inflamed Human Epidermis
 
@@ -41,9 +41,18 @@ The UCSC Cell Browser was used to identify a human single-cell dataset relevant 
 
 ### Why This Dataset Was Selected?
 
-The human epidermis was selected because the TYR gene is associated with melanin production and Oculocutaneous albinism type 1 (OCA1), a disorder that affects pigmentation. This dataset is relevant because it represents human skin and contains a melanocyte cell population that can be examined for TYR expression. The selection and dataset information are supported by the UCSC Cell Browser evidence shown in Screenshot 1.
+The human epidermis was selected because the TYR gene is associated with melanin production and Oculocutaneous albinism type 1 (OCA1), a disorder that affects pigmentation. This dataset is relevant because it represents human skin and contains a melanocyte cell population that can be examined for TYR expression. The selection and dataset information are supported by the UCSC Cell Browser evidence shown in the first screenshot (Figure 1).
 
-## Part C: Understanding the Cell Map
+
+![Normal and Inflamed Human Epidermis dataset information](screenshots/01_dataset.png)
+
+**Figure 1.** Dataset information for the Normal and Inflamed Human Epidermis single-cell dataset in the UCSC Cell Browser.
+
+Shown in Figure 1 is the Normal and Inflamed Human Epidermis dataset selected for the analysis of TYR. The displayed information identifies the dataset as human epidermal tissue and provides the corresponding study and dataset details used for the activity.
+
+---
+
+## Understanding the Cell Map
 
 The UCSC Cell Browser was used to examine the cell map of the Normal and Inflamed Human Epidermis dataset. The visualization and cluster information were obtained from the Cell Browser interface.
 
@@ -58,7 +67,9 @@ Each dot represents one measured cell in the human epidermis single-cell dataset
 **c. What do the clusters represent in this particular dataset?**  
 The clusters represent different cell types or cell states identified through the dataset's Re-annotation. The labels shown on the map correspond to different groups of cells, including melanocytes, basal cells, and immune cells.
 
-## Part D: Assigned Gene Expression
+---
+
+## Assigned Gene Expression
 
 The assigned gene *TYR* was searched using the Gene tab in the UCSC Cell Browser. After selecting TYR, the cell map was recolored according to TYR expression, and the expression legend on the right side of the map showed the distribution of expression values.
 
@@ -76,6 +87,43 @@ The melanocyte cluster appears to contain cells with the strongest TYR expressio
 
 **e. Which cluster(s) appear to contain little or no detectable expression?**  
 Most other clusters, including spinuous, basal1, basal2, follicular, mitotic, WNT1, channel, and immune, show little or no detectable TYR expression compared with the melanocyte cluster.
+
+
+![TYR gene expression across the cell map](screenshots/02_gene_expression.png)
+
+**Figure 2.** Expression of the human TYR gene across cells in the Normal and Inflamed Human Epidermis dataset.
+
+Figure 2 presents the distribution of TYR expression across the cell map after the gene was selected in the UCSC Cell Browser. The color intensity represents different expression levels, with stronger *TYR* expression concentrated in the melanocyte cluster and little or no detectable expression observed in most other cell populations.
+
+---
+
+## Part E: Cell-Type/Cluster Expression of TYR
+
+The cell-type distribution of *TYR* expression was examined using the annotated cell map in the UCSC Cell Browser. The map was viewed with the cell-type/cluster labels visible, and the melanocyte cluster was examined more closely to compare its *TYR* expression with the other cell populations. The observed expression pattern and cell-type annotations are shown in Figure 3.
+
+**a. Cell type/cluster with the strongest visible expression:**  
+The melanocyte cluster shows the strongest visible expression of *TYR*.
+
+**b. Another cell type/cluster with detectable expression:**  
+Another cell type was not selected because the expression was mainly concentrated in the melanocyte cluster.
+
+**c. Cell type/cluster with relatively low or undetected expression:**  
+Most of the other clusters, including **spinuous, basal1, basal2, follicular, mitotic, WNT1, channel, and immune**, showed little or no detectable *TYR* expression.
+
+**d. Is the expression pattern broad or cell-type restricted?**  
+The TYR expression pattern is cell-type restricted, with the strongest visible expression concentrated in the melanocyte cluster.
+
+**e. Possible biological explanation:**  
+The observed pattern suggests that TYR expression is concentrated in melanocytes in this dataset. This may be related to the role of tyrosinase in melanin production.
+
+
+![TYR gene expression and cell-type annotation](screenshots/03_cell_types.png)
+
+**Figure 3.** TYR gene-expression map showing cell-type/cluster annotations in the Normal and Inflamed Human Epidermis dataset.
+
+A closer view of the TYR expression pattern and its corresponding cell-type annotation is provided in Figure 3. The melanocyte cluster is clearly identified and contains the strongest visible TYR expression. The annotation panel and expression legend further support the identification of the melanocyte cluster and the observed cell-type-restricted expression pattern.
+
+
 
 
 
