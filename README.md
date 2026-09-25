@@ -231,6 +231,44 @@ Yes. The observed TYR expression in the melanocyte cluster makes biological sens
 **5. Can this single Cell Browser dataset prove that the gene causes the disease? Explain why or why not.**  
 No. A single Cell Browser dataset cannot prove that TYR causes OCA1 because it mainly provides information about the gene's expression across the cell types represented in the selected dataset. The concentration of TYR expression in melanocytes supports its biological relevance to pigmentation, but expression alone does not establish disease causation. Additional genetic, clinical, and functional evidence is needed to determine whether a particular variant causes the disease.
 
+---
+
+## Reflection
+
+**1. What did the UCSC Cell Browser show you that the UCSC Genome Browser could not?**  
+The UCSC Cell Browser showed me how *TYR* expression differs among individual cell types, especially its strong expression in the melanocyte cluster. In comparison, the UCSC Genome Browser helped me examine the genomic location, structure, and other genomic information about *TYR*. Using both browsers allowed me to see the gene from both the genomic and cell-expression perspectives.
+
+**2. Why can the same gene have different expression levels among different cell types?**  
+The same gene can have different expression levels because different cell types perform different functions and therefore do not need to use all genes at the same level. A gene may be highly active in a cell type where its function is particularly important, while being expressed at low levels or not detected in other cells.
+
+**3. Why should you be careful when interpreting a gene that shows zero or very low expression in single-cell data?**  
+Zero or very low expression in single-cell data does not always mean that the gene is completely absent or inactive in that cell type. The gene may be expressed at a level too low to be detected, or its RNA may not have been captured during the experiment. Therefore, low or zero values should be interpreted carefully rather than immediately concluding that the gene is not expressed.
+
+**4. Why is it useful to combine information about genomic location, genetic variants, and cell-specific gene expression?**  
+Combining these types of information gives a more complete understanding of a gene and its relationship to disease. Genomic information shows where the gene and its variants are located, while cell-specific expression helps identify the cells in which the gene is being used. Together, these results can help connect a genetic change to its possible biological and cellular consequences.
+
+**5. What was the most interesting observation you made about your assigned gene?**  
+What intrigued me the most was seeing how strongly TYR expression was concentrated in the melanocyte cluster. I was amazed that the Cell Browser result connected so clearly with what I learned from the previous activity, where TYR was related to tyrosinase function, melanin production, and Oculocutaneous albinism type 1 (OCA1). Seeing the melanocyte cluster stand out on the expression map made the relationship between the gene, its function, the affected cell type, and the disease much easier for me to understand.
+
+---
+
+## References
+
+1. UCSC Cell Browser. Normal and Inflamed Human Epidermis dataset - TYR gene expression.  
+   https://cells.ucsc.edu/?ds=human-epidermis&gene=TYR 
+
+2. UCSC Cell Browser. UCSC Genomics Institute.  
+   https://cells.ucsc.edu/ 
+
+3. UCSC Genome Browser. University of California, Santa Cruz Genomics Institute.  
+   https://genome.ucsc.edu/ 
+
+4. National Center for Biotechnology Information (NCBI). ClinVar: NM_000372.5(TYR):c.832C>T (p.Arg278Ter).  
+   https://www.ncbi.nlm.nih.gov/clinvar/variation/99583/ 
+
+5. Cheng, J. B., Sedgewick, A. J., Finnegan, A. I., et al. (2018). Transcriptional Programming of Normal and Inflamed Human Epidermis at Single-Cell Resolution. *Cell Reports, 25*(4), 871–883.  
+   https://pubmed.ncbi.nlm.nih.gov/30355494/ 
+
 
 
 
