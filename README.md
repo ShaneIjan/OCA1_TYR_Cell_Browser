@@ -58,7 +58,24 @@ Each dot represents one measured cell in the human epidermis single-cell dataset
 **c. What do the clusters represent in this particular dataset?**  
 The clusters represent different cell types or cell states identified through the dataset's Re-annotation. The labels shown on the map correspond to different groups of cells, including melanocytes, basal cells, and immune cells.
 
-**d. List at least three cell-type or cluster labels visible in the dataset.**  
-Three visible labels are melanocyte, basal1, and spinuous. Other visible labels include basal2, follicular, mitotic, WNT1, channel, immune, and granular.
+## Part D: Assigned Gene Expression
+
+The assigned gene *TYR* was searched using the Gene tab in the UCSC Cell Browser. After selecting TYR, the cell map was recolored according to TYR expression, and the expression legend on the right side of the map showed the distribution of expression values.
+
+**a. Assigned gene symbol:**  
+My assigned gene is TYR (tyrosinase).
+
+**b. Dataset used:**  
+The dataset used is Normal and Inflamed Human Epidermis.
+
+**c. Is expression widespread, restricted, or low/undetected?**  
+TYR expression appears restricted mainly to the melanocyte cluster and is low or undetected in most cells. The expression legend shows that approximately 92.7% of cells have a value of 0, while the remaining cells show detectable expression at different levels.
+
+**d. Which cluster(s) appear to contain cells with stronger expression?**  
+The melanocyte cluster appears to contain cells with the strongest TYR expression.
+
+**e. Which cluster(s) appear to contain little or no detectable expression?**  
+Most other clusters, including spinuous, basal1, basal2, follicular, mitotic, WNT1, channel, and immune, show little or no detectable TYR expression compared with the melanocyte cluster.
+
 
 
