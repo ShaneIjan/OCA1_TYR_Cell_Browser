@@ -123,6 +123,27 @@ The observed pattern suggests that TYR expression is concentrated in melanocytes
 
 A closer view of the TYR expression pattern and its corresponding cell-type annotation is provided in Figure 3. The melanocyte cluster is clearly identified and contains the strongest visible TYR expression. The annotation panel and expression legend further support the identification of the melanocyte cluster and the observed cell-type-restricted expression pattern.
 
+---
+
+## Selected Cells and Gene-Expression Comparison
+
+The melanocyte cluster was selected while TYR remained active in the Gene tab of the UCSC Cell Browser. A violin plot was then examined to compare the distribution of *TYR* expression values between the selected melanocyte cells and the other cells. The resulting expression comparison is shown in Figure 4.
+
+**a. Which cells/cluster did you select?**  
+I selected cells from the melanocyte cluster, which consisted of 4,277 selected cells.
+
+**b. Does your selected group show higher, lower, or similar expression compared with the comparison cells?**  
+The selected melanocyte cells show higher TYR expression compared with the other cells. The expression values of the selected cells are distributed at higher levels, while the expression values of the comparison cells are concentrated mainly near zero.
+
+**c. What does the expression plot add that was not obvious from the UMAP/t-SNE map?**  
+The expression plot shows the distribution of TYR expression values in the selected melanocyte cells compared with the other cells. While the UMAP map shows where TYR-expressing cells are located, the violin plot provides a clearer comparison of the expression levels between the selected and comparison groups.
+
+![TYR expression plot comparing selected melanocyte cells with other cells](screenshots/04_expression_plot.png)
+
+**Figure 4.** Violin plot comparing *TYR* expression between selected melanocyte cells and other cells in the Normal and Inflamed Human Epidermis dataset.
+
+The violin plot provides a direct comparison of the TYR expression distributions between the selected melanocyte cells and the other cells. The selected group shows expression values distributed at higher levels, whereas the comparison group is concentrated mainly near zero.
+
 
 
 
