@@ -206,5 +206,31 @@ The expression patterns of the assigned disease gene TYR, associated with Oculoc
 
 Based on the observed cell maps, *TYR* showed a more cell-type-restricted expression pattern, whereas *MLANA* appeared more broadly expressed in this dataset. Although both genes were strongly associated with the melanocyte cluster, their distributions were not identical. This comparison shows that a disease-associated gene and a cell-type marker gene can be associated with the same cell type without having the same expression pattern. A gene's association with a disease does not necessarily determine how broadly it is expressed, while a marker gene is useful for helping characterize or distinguish a particular cell type.
 
+---
+
+## Connecting the Cell Browser Result to the Previous Genome Activity
+
+The results from the previous genome and mutation activities were connected with the current UCSC Cell Browser analysis to trace TYR from its chromosome location and gene structure to a disease-associated variant, gene expression, and the relevant cell type. The previous activities examined the location and structure of TYR and the disease-associated variant c.832C>T (p.Arg278Ter), while the current activity showed where TYR is expressed in the Normal and Inflamed Human Epidermis dataset.
+
+**Chromosome location → Gene structure → Disease-associated variant → Gene expression → Cell type/tissue**
+
+**Chromosome 11 (11q14.3) → *TYR* gene with 5 exons → c.832C>T (p.Arg278Ter) → *TYR* expression concentrated in melanocytes → melanocytes of the human epidermis**
+
+**1. On which chromosome is your assigned gene located?**  
+The assigned gene, TYR, is located on chromosome 11, specifically at 11q14.3. In the previous UCSC Genome Browser activity, TYR was examined using the GRCh38/hg38 human genome assembly, with the selected transcript NM_000372.5 containing five exons.
+
+**2. What disease-associated variant did you examine previously?**  
+The disease-associated variant examined previously was TYR c.832C>T (p.Arg278Ter). This is a nonsense variant in which cytosine (C) is replaced by thymine (T) at coding position 832, changing the codon from CGA (arginine) to TGA (stop). As a result, arginine at position 278 is replaced by a premature stop codon, producing a predicted truncated tyrosinase protein of 277 amino acids instead of 529 amino acids.
+
+**3. In the current Cell Browser dataset, which cell type(s) express the gene?**  
+In the Normal and Inflamed Human Epidermis dataset, TYR expression was mainly concentrated in the melanocyte cluster. Most of the other examined cell types showed little or no detectable *TYR* expression, indicating a cell-type-restricted expression pattern in this dataset.
+
+**4. Does the observed cell expression make biological sense based on what you already know about the gene's function or associated disease? Explain in 3–5 sentences.**  
+Yes. The observed TYR expression in the melanocyte cluster makes biological sense because TYR encodes tyrosinase, an enzyme involved in melanin production. In the previous activity, the c.832C>T (p.Arg278Ter) variant was associated with premature termination of the tyrosinase protein and reduced functional tyrosinase activity. This can lead to reduced or absent melanin synthesis in melanocytes and contribute to the hypopigmentation associated with Oculocutaneous albinism type 1 (OCA1). The current Cell Browser result supports this biological connection by showing that TYR expression is concentrated in melanocytes.
+
+**5. Can this single Cell Browser dataset prove that the gene causes the disease? Explain why or why not.**  
+No. A single Cell Browser dataset cannot prove that TYR causes OCA1 because it mainly provides information about the gene's expression across the cell types represented in the selected dataset. The concentration of TYR expression in melanocytes supports its biological relevance to pigmentation, but expression alone does not establish disease causation. Additional genetic, clinical, and functional evidence is needed to determine whether a particular variant causes the disease.
+
+
 
 
