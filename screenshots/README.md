@@ -33,3 +33,11 @@ Figure 3 shows the TYR gene-expression map in the UCSC Cell Browser with recogni
 **Figure 4.** Violin plot comparing TYR expression between selected melanocyte cells and other cells in the Normal and Inflamed Human Epidermis dataset.
 
 Following the selection of cells within the melanocyte cluster, the UCSC Cell Browser generated a violin plot comparing their TYR expression with the remaining cells. The selected group contains 4,277 cells, while the comparison group labeled “Others” contains 63,759 cells. The distribution of expression values for the selected cells extends to higher levels, whereas the values for the other cells are concentrated mainly near zero. The plot therefore provides additional evidence that TYR expression is higher in the selected melanocyte cells compared with the background cell population.
+
+## Screenshot 5: Marker Genes of the Melanocyte Cluster
+
+![Marker-gene information for the melanocyte cluster](05_marker_genes.png)
+
+**Figure 5.** Marker-gene information for the melanocyte cluster in the Normal and Inflamed Human Epidermis dataset.
+
+Displayed in Figure 5 is the cluster-marker table for the melanocyte cell population in the UCSC Cell Browser. The heading “Cluster markers for ‘melanocyte’” identifies the cluster being examined, while the table lists genes associated with that cluster together with their corresponding z scores and additional information. The recorded marker genes *MLANA*, *DCT*, and *TYRP1* are visible in the table, with z scores of approximately **322.8, 289.5, and 273.1**, respectively. Other genes listed in the marker table include CAPN3, QPCT, PMEL, PLP1, GPM6B, MITF, and VIM. The marker-gene information provides additional evidence for characterizing the melanocyte cluster and allows its marker profile to be compared with the observed expression pattern of TYR.
