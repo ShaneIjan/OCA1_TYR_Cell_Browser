@@ -42,3 +42,23 @@ The UCSC Cell Browser was used to identify a human single-cell dataset relevant 
 ### Why This Dataset Was Selected?
 
 The human epidermis was selected because the TYR gene is associated with melanin production and Oculocutaneous albinism type 1 (OCA1), a disorder that affects pigmentation. This dataset is relevant because it represents human skin and contains a melanocyte cell population that can be examined for TYR expression. The selection and dataset information are supported by the UCSC Cell Browser evidence shown in Screenshot 1.
+
+## Part C: Understanding the Cell Map
+
+The UCSC Cell Browser was used to examine the cell map of the Normal and Inflamed Human Epidermis dataset. The visualization and cluster information were obtained from the Cell Browser interface.
+
+### Cell Map Observations
+
+**a. What type of visualization is being shown (UMAP, t-SNE, or another layout)?**  
+The visualization is a UMAP (Uniform Manifold Approximation and Projection). After clicking the Layout tab, the Embedding option showed `umap_hm`, indicating that the cell map uses a UMAP embedding.
+
+**b. What does one dot represent?**  
+Each dot represents one measured cell in the human epidermis single-cell dataset. Cells positioned close to one another generally have more similar molecular profiles.
+
+**c. What do the clusters represent in this particular dataset?**  
+The clusters represent different cell types or cell states identified through the dataset's Re-annotation. The labels shown on the map correspond to different groups of cells, including melanocytes, basal cells, and immune cells.
+
+**d. List at least three cell-type or cluster labels visible in the dataset.**  
+Three visible labels are melanocyte, basal1, and spinuous. Other visible labels include basal2, follicular, mitotic, WNT1, channel, immune, and granular.
+
+
